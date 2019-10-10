@@ -1,3 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+html {
+  background-color: white;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navegacao {
+  display: flex;
+  justify-content: space-between;
+}
+.navegacao img {
+  width: 20%;
+}
+.navegacao .menu {
+  display: flex;
+  justify-content: space-around;
+}
 
 /*# sourceMappingURL=style.css.map */
